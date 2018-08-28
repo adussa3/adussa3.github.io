@@ -1,0 +1,168 @@
+:root {
+  --black: #212529;
+  --gradient1: #1ca7ec; /*#4286f4*/
+  --gradient2: #1372eb; /*#373b44*/
+  --transparent: rgba(255, 255, 255, 0.7);
+};
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+header {
+  /*background: linear-gradient(to top right, var(--gradient1), var(--gradient2));*/
+  /*background: linear-gradient(90deg, #0084bf, #0c8996 50%);*/
+  background: linear-gradient(135deg, #1ca7ec 0%, #1ca7ec 40%, #1372eb 100%);
+  min-height: 100vh;
+
+  text-align: center;
+  color: #fff;
+  /* text-shadow: 2px 2px 4px #000000; */
+}
+
+header h1 {
+  font-size: 4rem;
+}
+
+header h2 {
+  font-weight: 300;
+}
+
+/*.center {
+   https://vanseodesign.com/blog/demo/vertical-centering/positioning-stretch.php
+     this centers the div in the middle of the header
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right:0;
+  margin: auto;
+  width:50%;
+  height: 40%;
+}*/
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #fff;
+  /* box-shadow: 2px 2px 4px #000000; */
+}
+
+.widget:hover {
+  text-decoration: none;
+}
+
+.widget .btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin: auto 1%;
+}
+
+.widget .btn:hover {
+  background-color: rgba(255,255,255,0.20);
+}
+
+.widget i {
+  color: #fff;
+  font-size: 30px;
+}
+
+/*.btn-primary.learn-more {
+  background-color: transparent;
+  border: 1px #fff solid !important;
+  color: #fff;
+}
+
+.btn-primary.learn-more:hover {
+  background-color: rgba(255,255,255,.20);
+  transition: 0.2s;
+}
+
+.btn-primary.learn-more:focus,
+.btn-primary.learn-more.focus {
+  background: rgba(255,255,255,.20) !important;
+}
+
+.btn-xl.learn-more {
+  padding: 1rem 2rem;
+}
+
+.btn.learn-more {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  text-shadow: none;
+}*/
+
+/*.card {
+  /* http://www.tipue.com/blog/center-a-div/:
+     this centers the card in the middle of the header
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 50vw;
+  max-height: 75vh;
+
+  background: rgba(255, 255, 255, 1);
+  border-width: 2px;
+}
+
+.card-body {
+  align-content: center;
+}
+
+.card-body h1, h2, h3, h4, h5, h6 {
+  font-weight: 200;
+  color: #313f47;
+}*/
+
+section {
+  min-height: 92.25vh;
+}
+
+section h2 {
+  margin: 0;
+}
+
+section:nth-child(odd) {
+  background: #eee;
+}
+
+section:nth-child(even) {
+  background: lightgray;
+}
+
+footer {
+  background: rgb(63, 63, 63);
+  color: rgb(113, 113, 113);
+  padding: 1% 0;
+}
+
+footer p {
+  margin: 0%;
+}
