@@ -1,5 +1,6 @@
 :root {
-  --black: #212529;
+  --black: #444444;
+  --gray: #666666;
   --gradient1: #1ca7ec; /*#4286f4*/
   --gradient2: #1372eb; /*#373b44*/
   --transparent: rgba(255, 255, 255, 0.7);
@@ -13,6 +14,8 @@ html {
 
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: var(--black);
 }
 
 h1,
@@ -59,7 +62,7 @@ header h2 {
   height: 40%;
 }*/
 
-hr {
+header hr {
   max-width: 50px;
   border-width: 3px;
   border-color: #fff;
@@ -146,23 +149,29 @@ section {
 }
 
 section h2 {
-  margin: 0;
+  padding-top: 1em;
 }
 
-section:nth-child(odd) {
+.faded_hr {
+  height: 1px;
+  width: 80%;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#f4f4f4), to(#f4f4f4), color-stop(50%, rgba(0,0,0,.25)));
+  margin: 0 auto; /* horizontally centers div */
+}
+
+/*section:nth-child(odd) {
   background: #eee;
 }
 
 section:nth-child(even) {
   background: lightgray;
-}
+}*/
 
 footer {
-  background: rgb(63, 63, 63);
-  color: rgb(113, 113, 113);
-  padding: 1% 0;
+  color: var(--gray);
+  margin-bottom: 0em;
 }
 
 footer p {
-  margin: 0%;
+  font-size: 0.8em;
 }
