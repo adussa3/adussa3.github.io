@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <title>Atlanta Population Estimate</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.2.0/mapbox-gl-geocoder.min.js'></script>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.2.0/mapbox-gl-geocoder.css' type='text/css' />
+
+    <style>
+      body {
+        margin:0;
+        position:fixed;
+        top:0;
+        right:0;
+        bottom:0;
+        left:0;
+      }
+
+      #map {
+        position:absolute;
+        width: 100%;
+        height: 100%;
+      }
+
+      #sidebar {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        bottom: 15px;
+        width: 375px;
+        overflow: auto;
+        background: rgba(255, 255, 255, 0.8);
+        font-family: "Arial";
+        padding-left: 10px;
+      }
+
+      .legend {
+        background-color: #fff;
+        border-radius: 3px;
+        bottom: 30px;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.10);
+        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        padding: 10px;
+        position: absolute;
+        right: 10px;
+        z-index: 1;
+      }
+
+      .legend h4 {
+          margin: 0 0 10px;
+      }
+
+      .legend div span {
+          border-radius: 50%;
+          display: inline-block;
+          height: 10px;
+          margin-right: 5px;
+          width: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id='map'></div>
+    <div id='atlanta-legend' class='legend'>
+      <h4>Population Estimates Key</h4>
+      <div id='key1'><span style='background-color: #ffffb2'></span>0 - 9999</div>
+      <div id='key2'><span style='background-color: #fed976'></span>10000 - 19999</div>
+      <div id='key3'><span style='background-color: #feb24c'></span>20000 - 29999</div>
+      <div id='key4'><span style='background-color: #fd8d3c'></span>30000 - 39999</div>
+      <div id='key5'><span style='background-color: #fc4e2a'></span>40000 - 49999</div>
+      <div id='key6'><span style='background-color: #e31a1c'></span>50000 - 59999</div>
+      <div id='key7'><span style='background-color: #b10026'></span>60000+</div>
+    </div>
+
+    <div id='sidebar'>
+      <h4>Atlanta Population Estimates</h4>
+      <div id="tooltip-name"></div>
+      <div id='tooltip'></div>
+      <div id="density"></div>
+      <div class='session' id='sliderbar'>
+        <h4>Year: <label id='active-year'>2011</label></h4>
+        <input id='slider' class='row' type='range' min='11' max='16' step='1' value='11'/>
+      </div>
+      <br>
+      <form id="menu">
+        <label><input type="radio" name="age-race" checked> Age</label>
+        <label><input type="radio" name="age-race"> Race (in progress)</label>
+        <br>
+        <br>
+        <select name="list" form="form">
+          <option id="total">Total population</option>
+          <option id="age_Under5">under 5 years</option>
+          <option id="age_5-9">5 to 9 years</option>
+          <option id="age_10-24">under 5 years</option>
+          <option id="age_15-19">5 to 9 years</option>
+          <option id="age_20-24">20 to 24 years</option>
+          <option id="age_25-34">25 to 34 years</option>
+        </select>
+      </form>
+    </div>
+    <script src="//d3js.org/topojson.v1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/AtlantaPopulationEstimate.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
