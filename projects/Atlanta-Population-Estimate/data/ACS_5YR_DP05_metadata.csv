@@ -5,320 +5,332 @@ HC01_VC03,Estimate; SEX AND AGE - Total population
 ,
 ,
 ,
-HC01_VC04,Estimate; SEX AND AGE - Male
+HC01_VC04,Estimate; SEX AND AGE - Total population - Male
 ,
 ,
 ,
-HC01_VC05,Estimate; SEX AND AGE - Female
+HC01_VC05,Estimate; SEX AND AGE - Total population - Female
 ,
 ,
 ,
-HC01_VC07,Estimate; SEX AND AGE - Under 5 years
+HC01_VC08,Estimate; SEX AND AGE - Under 5 years
 ,
 ,
 ,
-HC01_VC08,Estimate; SEX AND AGE - 5 to 9 years
+HC01_VC09,Estimate; SEX AND AGE - 5 to 9 years
 ,
 ,
 ,
-HC01_VC09,Estimate; SEX AND AGE - 10 to 14 years
+HC01_VC10,Estimate; SEX AND AGE - 10 to 14 years
 ,
 ,
 ,
-HC01_VC10,Estimate; SEX AND AGE - 15 to 19 years
+HC01_VC11,Estimate; SEX AND AGE - 15 to 19 years
 ,
 ,
 ,
-HC01_VC11,Estimate; SEX AND AGE - 20 to 24 years
+HC01_VC12,Estimate; SEX AND AGE - 20 to 24 years
 ,
 ,
 ,
-HC01_VC12,Estimate; SEX AND AGE - 25 to 34 years
+HC01_VC13,Estimate; SEX AND AGE - 25 to 34 years
 ,
 ,
 ,
-HC01_VC13,Estimate; SEX AND AGE - 35 to 44 years
+HC01_VC14,Estimate; SEX AND AGE - 35 to 44 years
 ,
 ,
 ,
-HC01_VC14,Estimate; SEX AND AGE - 45 to 54 years
+HC01_VC15,Estimate; SEX AND AGE - 45 to 54 years
 ,
 ,
 ,
-HC01_VC15,Estimate; SEX AND AGE - 55 to 59 years
+HC01_VC16,Estimate; SEX AND AGE - 55 to 59 years
 ,
 ,
 ,
-HC01_VC16,Estimate; SEX AND AGE - 60 to 64 years
+HC01_VC17,Estimate; SEX AND AGE - 60 to 64 years
 ,
 ,
 ,
-HC01_VC17,Estimate; SEX AND AGE - 65 to 74 years
+HC01_VC18,Estimate; SEX AND AGE - 65 to 74 years
 ,
 ,
 ,
-HC01_VC18,Estimate; SEX AND AGE - 75 to 84 years
+HC01_VC19,Estimate; SEX AND AGE - 75 to 84 years
 ,
 ,
 ,
-HC01_VC19,Estimate; SEX AND AGE - 85 years and over
+HC01_VC20,Estimate; SEX AND AGE - 85 years and over
 ,
 ,
 ,
-HC01_VC21,Estimate; SEX AND AGE - Median age (years)
+HC01_VC23,Estimate; SEX AND AGE - Median age (years)
 ,
 ,
 ,
-HC01_VC23,Estimate; SEX AND AGE - 18 years and over
+HC01_VC26,Estimate; SEX AND AGE - 18 years and over
 ,
 ,
 ,
-HC01_VC24,Estimate; SEX AND AGE - 21 years and over
+HC01_VC27,Estimate; SEX AND AGE - 21 years and over
 ,
 ,
 ,
-HC01_VC25,Estimate; SEX AND AGE - 62 years and over
+HC01_VC28,Estimate; SEX AND AGE - 62 years and over
 ,
 ,
 ,
-HC01_VC26,Estimate; SEX AND AGE - 65 years and over
+HC01_VC29,Estimate; SEX AND AGE - 65 years and over
 ,
 ,
 ,
-HC01_VC28,Estimate; SEX AND AGE - 18 years and over
+HC01_VC32,Estimate; SEX AND AGE - 18 years and over
 ,
 ,
 ,
-HC01_VC29,Estimate; SEX AND AGE - Male
+HC01_VC33,Estimate; SEX AND AGE - 18 years and over - Male
 ,
 ,
 ,
-HC01_VC30,Estimate; SEX AND AGE - Female
+HC01_VC34,Estimate; SEX AND AGE - 18 years and over - Female
 ,
 ,
 ,
-HC01_VC32,Estimate; SEX AND AGE - 65 years and over
+HC01_VC37,Estimate; SEX AND AGE - 65 years and over
 ,
 ,
 ,
-HC01_VC33,Estimate; SEX AND AGE - Male
+HC01_VC38,Estimate; SEX AND AGE - 65 years and over - Male
 ,
 ,
 ,
-HC01_VC34,Estimate; SEX AND AGE - Female
+HC01_VC39,Estimate; SEX AND AGE - 65 years and over - Female
 ,
 ,
 ,
-HC01_VC38,Estimate; RACE - Total population
+HC01_VC43,Estimate; RACE - Total population
 ,
 ,
 ,
-HC01_VC39,Estimate; RACE - One race
+HC01_VC44,Estimate; RACE - Total population - One race
 ,
 ,
 ,
-HC01_VC40,Estimate; RACE - Two or more races
+HC01_VC45,Estimate; RACE - Total population - Two or more races
 ,
 ,
 ,
-HC01_VC42,Estimate; RACE - One race
+HC01_VC48,Estimate; RACE - One race
 ,
 ,
 ,
-HC01_VC43,Estimate; RACE - One race - White
+HC01_VC49,Estimate; RACE - One race - White
 ,
 ,
 ,
-HC01_VC44,Estimate; RACE - One race - Black or African American
+HC01_VC50,Estimate; RACE - One race - Black or African American
 ,
 ,
 ,
-HC01_VC45,Estimate; RACE - One race - American Indian and Alaska Native
+HC01_VC51,Estimate; RACE - One race - American Indian and Alaska Native
 ,
 ,
 ,
-HC01_VC46,Estimate; RACE - One race - American Indian and Alaska Native - Cherokee tribal grouping
+HC01_VC52,Estimate; RACE - One race - American Indian and Alaska Native - Cherokee tribal grouping
 ,
 ,
 ,
-HC01_VC47,Estimate; RACE - One race - American Indian and Alaska Native - Chippewa tribal grouping
+HC01_VC53,Estimate; RACE - One race - American Indian and Alaska Native - Chippewa tribal grouping
 ,
 ,
 ,
-HC01_VC48,Estimate; RACE - One race - American Indian and Alaska Native - Navajo tribal grouping
+HC01_VC54,Estimate; RACE - One race - American Indian and Alaska Native - Navajo tribal grouping
 ,
 ,
 ,
-HC01_VC49,Estimate; RACE - One race - American Indian and Alaska Native - Sioux tribal grouping
+HC01_VC55,Estimate; RACE - One race - American Indian and Alaska Native - Sioux tribal grouping
 ,
 ,
 ,
-HC01_VC50,Estimate; RACE - One race - Asian
+HC01_VC56,Estimate; RACE - One race - Asian
 ,
 ,
 ,
-HC01_VC51,Estimate; RACE - One race - Asian - Asian Indian
+HC01_VC57,Estimate; RACE - One race - Asian - Asian Indian
 ,
 ,
 ,
-HC01_VC52,Estimate; RACE - One race - Asian - Chinese
+HC01_VC58,Estimate; RACE - One race - Asian - Chinese
 ,
 ,
 ,
-HC01_VC53,Estimate; RACE - One race - Asian - Filipino
+HC01_VC59,Estimate; RACE - One race - Asian - Filipino
 ,
 ,
 ,
-HC01_VC54,Estimate; RACE - One race - Asian - Japanese
+HC01_VC60,Estimate; RACE - One race - Asian - Japanese
 ,
 ,
 ,
-HC01_VC55,Estimate; RACE - One race - Asian - Korean
+HC01_VC61,Estimate; RACE - One race - Asian - Korean
 ,
 ,
 ,
-HC01_VC56,Estimate; RACE - One race - Asian - Vietnamese
+HC01_VC62,Estimate; RACE - One race - Asian - Vietnamese
 ,
 ,
 ,
-HC01_VC57,Estimate; RACE - One race - Asian - Other Asian
+HC01_VC63,Estimate; RACE - One race - Asian - Other Asian
 ,
 ,
 ,
-HC01_VC58,Estimate; RACE - One race - Native Hawaiian and Other Pacific Islander
+HC01_VC64,Estimate; RACE - One race - Native Hawaiian and Other Pacific Islander
 ,
 ,
 ,
-HC01_VC59,Estimate; RACE - One race - Native Hawaiian and Other Pacific Islander - Native Hawaiian
+HC01_VC65,Estimate; RACE - One race - Native Hawaiian and Other Pacific Islander - Native Hawaiian
 ,
 ,
 ,
-HC01_VC60,Estimate; RACE - One race - Native Hawaiian and Other Pacific Islander - Guamanian or Chamorro
+HC01_VC66,Estimate; RACE - One race - Native Hawaiian and Other Pacific Islander - Guamanian or Chamorro
 ,
 ,
 ,
-HC01_VC61,Estimate; RACE - One race - Native Hawaiian and Other Pacific Islander - Samoan
+HC01_VC67,Estimate; RACE - One race - Native Hawaiian and Other Pacific Islander - Samoan
 ,
 ,
 ,
-HC01_VC62,Estimate; RACE - One race - Native Hawaiian and Other Pacific Islander - Other Pacific Islander
+HC01_VC68,Estimate; RACE - One race - Native Hawaiian and Other Pacific Islander - Other Pacific Islander
 ,
 ,
 ,
-HC01_VC63,Estimate; RACE - One race - Some other race
+HC01_VC69,Estimate; RACE - One race - Some other race
 ,
 ,
 ,
-HC01_VC64,Estimate; RACE - Two or more races
+HC01_VC70,Estimate; RACE - Two or more races
 ,
 ,
 ,
-HC01_VC65,Estimate; RACE - Two or more races - White and Black or African American
+HC01_VC71,Estimate; RACE - Two or more races - White and Black or African American
 ,
 ,
 ,
-HC01_VC66,Estimate; RACE - Two or more races - White and American Indian and Alaska Native
+HC01_VC72,Estimate; RACE - Two or more races - White and American Indian and Alaska Native
 ,
 ,
 ,
-HC01_VC67,Estimate; RACE - Two or more races - White and Asian
+HC01_VC73,Estimate; RACE - Two or more races - White and Asian
 ,
 ,
 ,
-HC01_VC68,Estimate; RACE - Two or more races - Black or African American and American Indian and Alaska Native
+HC01_VC74,Estimate; RACE - Two or more races - Black or African American and American Indian and Alaska Native
 ,
 ,
 ,
-HC01_VC71,Estimate; RACE - Race alone or in combination with one or more other races - Total population
+HC01_VC77,Estimate; RACE - Race alone or in combination with one or more other races - Total population
 ,
 ,
 ,
-HC01_VC72,Estimate; RACE - White
+HC01_VC78,Estimate; RACE - Race alone or in combination with one or more other races - Total population - White
 ,
 ,
 ,
-HC01_VC73,Estimate; RACE - Black or African American
+HC01_VC79,Estimate; RACE - Race alone or in combination with one or more other races - Total population - Black or African American
 ,
 ,
 ,
-HC01_VC74,Estimate; RACE - American Indian and Alaska Native
+HC01_VC80,Estimate; RACE - Race alone or in combination with one or more other races - Total population - American Indian and Alaska Native
 ,
 ,
 ,
-HC01_VC75,Estimate; RACE - Asian
+HC01_VC81,Estimate; RACE - Race alone or in combination with one or more other races - Total population - Asian
 ,
 ,
 ,
-HC01_VC76,Estimate; RACE - Native Hawaiian and Other Pacific Islander
+HC01_VC82,Estimate; RACE - Race alone or in combination with one or more other races - Total population - Native Hawaiian and Other Pacific Islander
 ,
 ,
 ,
-HC01_VC77,Estimate; RACE - Some other race
+HC01_VC83,Estimate; RACE - Race alone or in combination with one or more other races - Total population - Some other race
 ,
 ,
 ,
-HC01_VC81,Estimate; HISPANIC OR LATINO AND RACE - Total population
+HC01_VC87,Estimate; HISPANIC OR LATINO AND RACE - Total population
 ,
 ,
 ,
-HC01_VC82,Estimate; HISPANIC OR LATINO AND RACE - Hispanic or Latino (of any race)
+HC01_VC88,Estimate; HISPANIC OR LATINO AND RACE - Total population - Hispanic or Latino (of any race)
 ,
 ,
 ,
-HC01_VC83,Estimate; HISPANIC OR LATINO AND RACE - Hispanic or Latino (of any race) - Mexican
+HC01_VC89,Estimate; HISPANIC OR LATINO AND RACE - Total population - Hispanic or Latino (of any race) - Mexican
 ,
 ,
 ,
-HC01_VC84,Estimate; HISPANIC OR LATINO AND RACE - Hispanic or Latino (of any race) - Puerto Rican
+HC01_VC90,Estimate; HISPANIC OR LATINO AND RACE - Total population - Hispanic or Latino (of any race) - Puerto Rican
 ,
 ,
 ,
-HC01_VC85,Estimate; HISPANIC OR LATINO AND RACE - Hispanic or Latino (of any race) - Cuban
+HC01_VC91,Estimate; HISPANIC OR LATINO AND RACE - Total population - Hispanic or Latino (of any race) - Cuban
 ,
 ,
 ,
-HC01_VC86,Estimate; HISPANIC OR LATINO AND RACE - Hispanic or Latino (of any race) - Other Hispanic or Latino
+HC01_VC92,Estimate; HISPANIC OR LATINO AND RACE - Total population - Hispanic or Latino (of any race) - Other Hispanic or Latino
 ,
 ,
 ,
-HC01_VC87,Estimate; HISPANIC OR LATINO AND RACE - Not Hispanic or Latino
+HC01_VC93,Estimate; HISPANIC OR LATINO AND RACE - Total population - Not Hispanic or Latino
 ,
 ,
 ,
-HC01_VC88,Estimate; HISPANIC OR LATINO AND RACE - Not Hispanic or Latino - White alone
+HC01_VC94,Estimate; HISPANIC OR LATINO AND RACE - Total population - Not Hispanic or Latino - White alone
 ,
 ,
 ,
-HC01_VC89,Estimate; HISPANIC OR LATINO AND RACE - Not Hispanic or Latino - Black or African American alone
+HC01_VC95,Estimate; HISPANIC OR LATINO AND RACE - Total population - Not Hispanic or Latino - Black or African American alone
 ,
 ,
 ,
-HC01_VC90,Estimate; HISPANIC OR LATINO AND RACE - Not Hispanic or Latino - American Indian and Alaska Native alone
+HC01_VC96,Estimate; HISPANIC OR LATINO AND RACE - Total population - Not Hispanic or Latino - American Indian and Alaska Native alone
 ,
 ,
 ,
-HC01_VC91,Estimate; HISPANIC OR LATINO AND RACE - Not Hispanic or Latino - Asian alone
+HC01_VC97,Estimate; HISPANIC OR LATINO AND RACE - Total population - Not Hispanic or Latino - Asian alone
 ,
 ,
 ,
-HC01_VC92,Estimate; HISPANIC OR LATINO AND RACE - Not Hispanic or Latino - Native Hawaiian and Other Pacific Islander alone
+HC01_VC98,Estimate; HISPANIC OR LATINO AND RACE - Total population - Not Hispanic or Latino - Native Hawaiian and Other Pacific Islander alone
 ,
 ,
 ,
-HC01_VC93,Estimate; HISPANIC OR LATINO AND RACE - Not Hispanic or Latino - Some other race alone
+HC01_VC99,Estimate; HISPANIC OR LATINO AND RACE - Total population - Not Hispanic or Latino - Some other race alone
 ,
 ,
 ,
-HC01_VC94,Estimate; HISPANIC OR LATINO AND RACE - Not Hispanic or Latino - Two or more races
+HC01_VC100,Estimate; HISPANIC OR LATINO AND RACE - Total population - Not Hispanic or Latino - Two or more races
 ,
 ,
 ,
-HC01_VC95,Estimate; HISPANIC OR LATINO AND RACE - Not Hispanic or Latino - Two or more races - Two races including Some other race
+HC01_VC101,Estimate; HISPANIC OR LATINO AND RACE - Total population - Not Hispanic or Latino - Two or more races - Two races including Some other race
 ,
 ,
 ,
-HC01_VC96,"Estimate; HISPANIC OR LATINO AND RACE - Not Hispanic or Latino - Two or more races - Two races excluding Some other race, and Three or more races"
+HC01_VC102,"Estimate; HISPANIC OR LATINO AND RACE - Total population - Not Hispanic or Latino - Two or more races - Two races excluding Some other race, and Three or more races"
 ,
 ,
 ,
-HC01_VC98,Estimate; HISPANIC OR LATINO AND RACE - Total housing units
+HC01_VC104,Estimate; HISPANIC OR LATINO AND RACE - Total housing units
+,
+,
+,
+HC01_VC108,"Estimate; CITIZEN, VOTING AGE POPULATION - Citizen, 18 and over population"
+,
+,
+,
+HC01_VC109,"Estimate; CITIZEN, VOTING AGE POPULATION - Citizen, 18 and over population - Male"
+,
+,
+,
+HC01_VC110,"Estimate; CITIZEN, VOTING AGE POPULATION - Citizen, 18 and over population - Female"
